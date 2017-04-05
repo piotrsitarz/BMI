@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <head>
+    <meta name="description" content="bmi calculator">
+    <meta name="keywords" content="bmi, health, bmi calculator">
+    <meta name="author" content="Piotr Sitarz">
+        <title>BMI Calculator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="logo">
+            <h1>BMI</h1>
+            <img src="Logo.png" alt="logo">
+            <h1>CALCULATOR</h1>
+        </div>
+            <div class="heading first">    
+                <h2>Czym jest BMI</h2>
+                <a href="javascript:;" class="button" title="button">?</a>
+            </div>
+            <div id="description">      
+                <p>BMI jest jednym z ważnych wskaźniów określających nasz stan fizyczny, ale niestety nie wystarczającym. Bardzo ważnym uzupełnieniem BMI jest wskaźnik ilości tłuszczu brzusznego - zbyt duży może oznaczać niebezpieczną otyłość brzuszną i to nawet przy prawidłowym BMI! Ponadto, paradoksalnie, badania naukowe wskazują, że osoby z lekką nadwagą zwykle są zdrowsze i żyją dłużej od osób z tzw. "prawidłową wagą". Pojawiają się nawet głosy, że ustalony arbitralnie przez WHO próg nadwagi (25) jest zbyt niski.</p>
+            </div>
+            <div class="heading second">
+                <h2>Jak sprawdzić</h2>
+                <a href="javascript:;" class="button" title="button">?</a>
+            </div>
+            <div id="calculate">
+               <p>Kalkulator BMI (Body Mass Index) daje każdemu możliwość szybkiego i wygodego obliczenia własnego wskaźnika masy ciała. BMI obliczamy dzieląc masę ciała (w kilogramach) przez wzrost do kwadratu (w metrach). Wskaźnik ten wykorzystywany jest przede wszystkim do oceny ryzyka pojawienia się groźnych chorób: miażdżycy, choroby niedokrwiennej serca, udaru mózgu, czy nawet nowotworów. Większość tych chorób jest związana z otyłością i dlatego kalkulator BMI to tak przydatne narzędzie.
+               </p>
+               <div id="highness">
+                   <p>Wysokość [cm] </p>
+                   <input type="text" id="height">
+               </div>
+               <div id="mass">
+                   <p>Waga [kg] </p>
+                   <input type="text" id="weight">
+               </div>
+               <div id="calc">
+                   <a href="javascript:;" id="calculator">Oblicz!</a>
+                   <div id="score">
+                   </div>
+               </div>
+            </div>
+            <div class="heading third">
+                <h2>Jakie są zakresy wartości BMI</h2>
+                <a href="javascript:;" class="button" title="button">?</a>
+            </div>
+            <div id="range">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Wartość BMI</th>
+                            <th>Znaczenie</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-hover">
+                        <tr>
+                            <td>&#60; 16</td>
+                            <td>wygłodzenie</td>
+                        </tr>
+                        <tr>
+                            <td>16 - 16.99</td>
+                            <td>wychudzenie</td>
+                        </tr>
+                        <tr>
+                            <td>17 - 18.49</td>
+                            <td>niedowaga</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.99</td>
+                            <td>wartość prawidłowa</td>
+                        </tr>
+                        <tr>
+                            <td>25 - 29.99</td>
+                            <td>nadwaga</td>
+                        </tr>
+                        <tr>
+                            <td>30 - 34.99</td>
+                            <td>I stopień otyłości</td>
+                        </tr>
+                        <tr>
+                            <td>35 - 39.99</td>
+                            <td>II stopień otyłości</td>
+                        </tr>
+                        <tr>
+                            <td>&#62; 40</td>
+                            <td>otyłość skrajna</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="heading fourth">
+                <h2>O czym warto pamiętać</h2>
+                <a href="javascript:;" class="button" title="button">?</a>
+            </div>
+            <div id="remember">
+                <p>Kalkulator BMI obrazuje przybliżoną zawartość tłuszczu w organiźmie. W przypadku niektórych osób wskaźnik BMI może sugerować błędne wnioski. Osoby aktywne fizycznie, uprawiający sport, mogą posiadać zawyżoną wagę związaną z tkanką mięśniową a nie z ilością tłuszczu w organiźmie. Ponadto nie zaleca się stosowania wskaźnika BMI do oznaczania wagi ciała dla dzieci do ok. 14 roku życia oraz dla kobiet w ciąży.</p>
+            </div>
+          
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>             
+        <script type="text/javascript" src="script.js"></script>
+    </body>   
+</html>
+
