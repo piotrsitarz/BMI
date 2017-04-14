@@ -6,38 +6,30 @@ body {
 
 @font-face {
     font-family:Funny;
-    src: url(Funny.otf);
+    src: url(fonts/Funny.otf);
 }
 
 @font-face {
     font-family:NotoSerif-Regularr;
-    src: url(NotoSerif-Regular.ttf);
+    src: url(fonts/NotoSerif-Regular.ttf);
 }
 
-@font-face {
-    font-family:Oswald-Bold;
-    src: url(Oswald-Bold.ttf);
-}
 
 @font-face {
     font-family:Roboto-Regular;
-    src: url(Roboto-Regular.ttf);
+    src: url(fonts/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family:Lato-Black;
-    src: url(Lato-Black.ttf);
+    src: url(fonts/Lato-Black.ttf);
 }
 
 @font-face {
     font-family:Lato-Regular;
-    src: url(Lato-Regular.ttf);
+    src: url(fonts/Lato-Regular.ttf);
 }
 
-@font-face {
-    font-family:Funny;
-    src: url(Funny.otf);
-}
 
 
 #logo {

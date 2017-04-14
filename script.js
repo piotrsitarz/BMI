@@ -30,35 +30,35 @@ function calculateBMI() {
     }
     
     if(BMI < 16) {
-        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI + "<br/>" + '<img src=cry.png>'  + "<h3>wygłodzenie</h3>";
+        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI + "<br/>" + '<img src=img/cry.png>'  + "<h3>wygłodzenie</h3>";
     }
     
     if(BMI >= 16 && BMI < 17) {
-        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=scared.png>'  + " <h3>wychudzenie</h3>";
+        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=img/scared.png>'  + " <h3>wychudzenie</h3>";
     }
     
     if(BMI >= 17 && BMI < 18.5) {
-        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=flushed.png>'  + " <h3>niedowaga</h3>";
+        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=img/flushed.png>'  + " <h3>niedowaga</h3>";
     }
     
     if(BMI >= 18.5 && BMI < 25) {
-        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=happy.png>'  + " <h3>wartość prawidłowa</h3>";
+        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=img/happy.png>'  + " <h3>wartość prawidłowa</h3>";
     }
     
     if(BMI >= 25 && BMI < 30) {
-        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=flushed.png>'  + " <h3>nadwaga</h3>";
+        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=img/flushed.png>'  + " <h3>nadwaga</h3>";
     }
     
     if(BMI >= 30 && BMI < 35) {
-        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=scared.png>'  + " <h3>I stopień otyłości</h3>";
+        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=img/scared.png>'  + " <h3>I stopień otyłości</h3>";
     }
     
     if(BMI >= 35 && BMI < 40) {
-        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=cry.png>'  + " <h3>II stopień otyłości</h3>";
+        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=img/cry.png>'  + " <h3>II stopień otyłości</h3>";
     }
     
     if(BMI > 40) {
-        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=cry.png>'  + " <h3>otyłość skrajna</h3>";
+        document.getElementById("score").innerHTML = "<h2>Twoje BMI wynosi</h2> " + "<br/>" + BMI  + "<br/>" + '<img src=img/cry.png>'  + " <h3>otyłość skrajna</h3>";
     }
     
     document.getElementById("score").style.display = "block";
